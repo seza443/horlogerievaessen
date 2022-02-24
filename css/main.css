@@ -1,0 +1,141 @@
+/* 
+    Created on : 30-nov.-2013, 17:21:26
+    Author     : Tanguy
+*/
+
+/*//@import url(http://fonts.googleapis.com/css?family=Scada:400italic,700italic,400,700);*/
+
+body {
+    background-image: url(../images/bg.jpg);
+    //font-size: 18px;
+}
+
+.jumbotron {
+    font-size: 18px;
+}
+
+#img-horlogerie-bijouterie {
+    position: absolute;
+    //top: 0em;
+    //  left: 2em;
+    height: 340px;
+    float: right;
+}
+
+.titre-panneau-collection {
+    font-size: 30px;
+}
+
+/*#img-jean-vaessen-dore{
+    position: absolute;
+    top: 28em;
+    //left: 2em;
+    height: 217px;
+}*/
+
+.galerie-photos .img-responsive {
+    /*
+    max-width: 250px;
+    max-height: 350px;
+    */
+    margin: 10px auto;
+}
+
+/* Prevents slides from flashing */
+#slides {
+    display:none;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../images/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active, .slidesjs-pagination li a.active:hover {
+    background-position: 0px -13px;
+}
+
+.slidesjs-pagination {
+    list-style: none;
+    margin: 7px 0 0;
+    float: right;
+}
+
+.slidesjs-pagination-item {
+    float: left;
+}
+
+.slidesjs-pagination ul {
+    float: right;
+    margin-right: 10px;
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0px -26px;
+}
+
+.slidesjs-navigation {
+    color: #555555;
+}
+
+.bs-docs-section {
+    margin-top: 4em;
+}
+
+#horaire {
+    /*position: fixed;*/
+	margin-right: 40px;
+	margin-left: 5px;
+}
+
+.label-ferme {
+    color: #ffffff;
+    text-align: center;
+    font-size: 100%;
+    background-color: #080808;
+}
+
+.label-ouvert {
+    color: #ffffff;
+    text-align: center;
+    font-size: 100%;
+    background-color: #2a9fd6;
+}
+
+.grey-link {
+    color: #555555;
+}
+
+.grey-link a {
+    color: #555555;
+}
+
+#navbar-main {
+    font-size: 1.2em;
+}
+
+/* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
